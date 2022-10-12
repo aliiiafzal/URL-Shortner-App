@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601B4CA611832A074AA8F2B8 /* Pods_URL_Shortner_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AF0A06E4C55017EE11FF31 /* Pods_URL_Shortner_App.framework */; };
 		7B51432228D357FC003BFBC9 /* URLShorterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B51432128D357FC003BFBC9 /* URLShorterViewController.swift */; };
+		7B588A6028F44C4900D44AAE /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B588A5E28F44C4900D44AAE /* DataModel.xcdatamodeld */; };
+		7B588A6328F457E600D44AAE /* UrlData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B588A6128F457E600D44AAE /* UrlData+CoreDataClass.swift */; };
+		7B588A6428F457E600D44AAE /* UrlData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B588A6228F457E600D44AAE /* UrlData+CoreDataProperties.swift */; };
 		7B59951428D4BCA300860514 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B59950F28D4BCA200860514 /* Poppins-Thin.ttf */; };
 		7B59951528D4BCA300860514 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B59951028D4BCA200860514 /* Poppins-Light.ttf */; };
 		7B59951628D4BCA300860514 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B59951128D4BCA200860514 /* Poppins-Medium.ttf */; };
@@ -22,6 +26,8 @@
 		7BD8E86D28D30A56007CC8A2 /* URL_Shortner_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8E86C28D30A56007CC8A2 /* URL_Shortner_AppTests.swift */; };
 		7BD8E87728D30A56007CC8A2 /* URL_Shortner_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8E87628D30A56007CC8A2 /* URL_Shortner_AppUITests.swift */; };
 		7BD8E87928D30A56007CC8A2 /* URL_Shortner_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8E87828D30A56007CC8A2 /* URL_Shortner_AppUITestsLaunchTests.swift */; };
+		98DB10515E42202B6F9C6E06 /* Pods_URL_Shortner_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B74583C9B73463F20E0369D7 /* Pods_URL_Shortner_AppTests.framework */; };
+		C4713DFA4DB2E8870E847DF9 /* Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546C981E980D20DCE4849815 /* Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AF0A06E4C55017EE11FF31 /* Pods_URL_Shortner_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URL_Shortner_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3396DE6E7557D26CE9121D15 /* Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig"; path = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests/Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EC82ABADC01839B97D07AAF /* Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests/Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45F7123ED91439D3C29C2F68 /* Pods-URL Shortner App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL Shortner App.release.xcconfig"; path = "Target Support Files/Pods-URL Shortner App/Pods-URL Shortner App.release.xcconfig"; sourceTree = "<group>"; };
+		546C981E980D20DCE4849815 /* Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B51432128D357FC003BFBC9 /* URLShorterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLShorterViewController.swift; sourceTree = "<group>"; };
+		7B588A5F28F44C4900D44AAE /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		7B588A6128F457E600D44AAE /* UrlData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UrlData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7B588A6228F457E600D44AAE /* UrlData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UrlData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		7B59950D28D4BC5100860514 /* Fonts.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Fonts.zip; sourceTree = "<group>"; };
 		7B59950F28D4BCA200860514 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		7B59951028D4BCA200860514 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
@@ -62,6 +76,10 @@
 		7BD8E87228D30A56007CC8A2 /* URL Shortner AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URL Shortner AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD8E87628D30A56007CC8A2 /* URL_Shortner_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL_Shortner_AppUITests.swift; sourceTree = "<group>"; };
 		7BD8E87828D30A56007CC8A2 /* URL_Shortner_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL_Shortner_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BC170978C118E8467CAE274 /* Pods-URL Shortner App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL Shortner App.debug.xcconfig"; path = "Target Support Files/Pods-URL Shortner App/Pods-URL Shortner App.debug.xcconfig"; sourceTree = "<group>"; };
+		B74583C9B73463F20E0369D7 /* Pods_URL_Shortner_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URL_Shortner_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC03B2FED77032B239159948 /* Pods-URL Shortner AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL Shortner AppTests.debug.xcconfig"; path = "Target Support Files/Pods-URL Shortner AppTests/Pods-URL Shortner AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFED59E148E2B1CE12C7D311 /* Pods-URL Shortner AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL Shortner AppTests.release.xcconfig"; path = "Target Support Files/Pods-URL Shortner AppTests/Pods-URL Shortner AppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601B4CA611832A074AA8F2B8 /* Pods_URL_Shortner_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DB10515E42202B6F9C6E06 /* Pods_URL_Shortner_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4713DFA4DB2E8870E847DF9 /* Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +129,8 @@
 				7BD8E86B28D30A56007CC8A2 /* URL Shortner AppTests */,
 				7BD8E87528D30A56007CC8A2 /* URL Shortner AppUITests */,
 				7BD8E85328D30A55007CC8A2 /* Products */,
+				A33C6535842660A6ADF00B4A /* Pods */,
+				CDAC8C99F4B71AF869E3E747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,11 +147,14 @@
 		7BD8E85428D30A55007CC8A2 /* URL Shortner App */ = {
 			isa = PBXGroup;
 			children = (
+				7B588A6128F457E600D44AAE /* UrlData+CoreDataClass.swift */,
+				7B588A6228F457E600D44AAE /* UrlData+CoreDataProperties.swift */,
 				7B59950D28D4BC5100860514 /* Fonts.zip */,
 				7BD8E85528D30A55007CC8A2 /* AppDelegate.swift */,
 				7BD8E85728D30A55007CC8A2 /* SceneDelegate.swift */,
 				7BD8E85928D30A55007CC8A2 /* ViewController.swift */,
 				7B51432128D357FC003BFBC9 /* URLShorterViewController.swift */,
+				7B588A5E28F44C4900D44AAE /* DataModel.xcdatamodeld */,
 				7BD8E85B28D30A55007CC8A2 /* Main.storyboard */,
 				7BD8E85E28D30A56007CC8A2 /* Assets.xcassets */,
 				7BD8E86028D30A56007CC8A2 /* LaunchScreen.storyboard */,
@@ -155,6 +181,29 @@
 			path = "URL Shortner AppUITests";
 			sourceTree = "<group>";
 		};
+		A33C6535842660A6ADF00B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BC170978C118E8467CAE274 /* Pods-URL Shortner App.debug.xcconfig */,
+				45F7123ED91439D3C29C2F68 /* Pods-URL Shortner App.release.xcconfig */,
+				3EC82ABADC01839B97D07AAF /* Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig */,
+				3396DE6E7557D26CE9121D15 /* Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig */,
+				DC03B2FED77032B239159948 /* Pods-URL Shortner AppTests.debug.xcconfig */,
+				EFED59E148E2B1CE12C7D311 /* Pods-URL Shortner AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDAC8C99F4B71AF869E3E747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01AF0A06E4C55017EE11FF31 /* Pods_URL_Shortner_App.framework */,
+				546C981E980D20DCE4849815 /* Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework */,
+				B74583C9B73463F20E0369D7 /* Pods_URL_Shortner_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BD8E87C28D30A56007CC8A2 /* Build configuration list for PBXNativeTarget "URL Shortner App" */;
 			buildPhases = (
+				AF0EB04EB67F2101A43D7492 /* [CP] Check Pods Manifest.lock */,
 				7BD8E84E28D30A55007CC8A2 /* Sources */,
 				7BD8E84F28D30A55007CC8A2 /* Frameworks */,
 				7BD8E85028D30A55007CC8A2 /* Resources */,
@@ -179,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BD8E87F28D30A56007CC8A2 /* Build configuration list for PBXNativeTarget "URL Shortner AppTests" */;
 			buildPhases = (
+				BF7117BF1E43A2766386B9CD /* [CP] Check Pods Manifest.lock */,
 				7BD8E86428D30A56007CC8A2 /* Sources */,
 				7BD8E86528D30A56007CC8A2 /* Frameworks */,
 				7BD8E86628D30A56007CC8A2 /* Resources */,
@@ -197,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BD8E88228D30A56007CC8A2 /* Build configuration list for PBXNativeTarget "URL Shortner AppUITests" */;
 			buildPhases = (
+				897866D23913EF35169CBD52 /* [CP] Check Pods Manifest.lock */,
 				7BD8E86E28D30A56007CC8A2 /* Sources */,
 				7BD8E86F28D30A56007CC8A2 /* Frameworks */,
 				7BD8E87028D30A56007CC8A2 /* Resources */,
@@ -286,13 +338,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		897866D23913EF35169CBD52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URL Shortner App-URL Shortner AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0EB04EB67F2101A43D7492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URL Shortner App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7117BF1E43A2766386B9CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URL Shortner AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BD8E84E28D30A55007CC8A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B588A6428F457E600D44AAE /* UrlData+CoreDataProperties.swift in Sources */,
 				7BD8E85A28D30A55007CC8A2 /* ViewController.swift in Sources */,
+				7B588A6028F44C4900D44AAE /* DataModel.xcdatamodeld in Sources */,
 				7BD8E85628D30A55007CC8A2 /* AppDelegate.swift in Sources */,
+				7B588A6328F457E600D44AAE /* UrlData+CoreDataClass.swift in Sources */,
 				7B51432228D357FC003BFBC9 /* URLShorterViewController.swift in Sources */,
 				7BD8E85828D30A55007CC8A2 /* SceneDelegate.swift in Sources */,
 			);
@@ -466,6 +590,7 @@
 		};
 		7BD8E87D28D30A56007CC8A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC170978C118E8467CAE274 /* Pods-URL Shortner App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +619,7 @@
 		};
 		7BD8E87E28D30A56007CC8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F7123ED91439D3C29C2F68 /* Pods-URL Shortner App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,6 +648,7 @@
 		};
 		7BD8E88028D30A56007CC8A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC03B2FED77032B239159948 /* Pods-URL Shortner AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +668,7 @@
 		};
 		7BD8E88128D30A56007CC8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFED59E148E2B1CE12C7D311 /* Pods-URL Shortner AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +688,7 @@
 		};
 		7BD8E88328D30A56007CC8A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC82ABADC01839B97D07AAF /* Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +706,7 @@
 		};
 		7BD8E88428D30A56007CC8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3396DE6E7557D26CE9121D15 /* Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -632,6 +762,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B588A5E28F44C4900D44AAE /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B588A5F28F44C4900D44AAE /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 7B588A5F28F44C4900D44AAE /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7BD8E84A28D30A55007CC8A2 /* Project object */;
 }

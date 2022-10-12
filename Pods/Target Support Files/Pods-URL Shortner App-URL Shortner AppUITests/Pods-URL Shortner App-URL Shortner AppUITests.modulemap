@@ -1,0 +1,6 @@
+framework module Pods_URL_Shortner_App_URL_Shortner_AppUITests {
+  umbrella header "Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,3 +1,4 @@
+
 //
 //  URLShorterViewController.swift
 //  URL Shortner App
@@ -6,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class TableViewCell: UITableViewCell {
     
@@ -16,15 +18,21 @@ class TableViewCell: UITableViewCell {
 
 class URLShorterViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
+    private var urlData = [UrlData]()
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    
     @IBOutlet weak var shortenButton: UIButton!
     @IBOutlet weak var linkTableView: UITableView!
     @IBOutlet weak var urlInput: UITextField!
     var name: String = ""
     var urltext: String?
-    private var data = [ApiResult]()
+    //private var data = [UrlData]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(dataFilePath)
         fetchEnteries()
+        loadUrls()
     }
     
     func fetchEnteries() {
@@ -34,11 +42,14 @@ class URLShorterViewController: UIViewController, UITableViewDataSource, UITable
         if urltext != nil {
             linkTableView.dataSource = self
             linkTableView.delegate = self
-            getData(urlName: urltext!, onCompletion: { result in
-                self.data.append(result)
-                //print(self.data)
-                self.linkTableView.reloadData()
-            })
+            getData(urlName: urltext!)
+//                        getData(urlName: urltext!, onCompletion: { result in
+//                            let newUrl = UrlData(context: self.context)
+//                            newUrl.short_link = result["short_link"]
+//                            newUrl.original_link = result["original_link"]
+//                            self.urlData.append(newUrl)
+//                            self.saveUrl()
+//                        })
         }
     }
     
@@ -55,11 +66,14 @@ class URLShorterViewController: UIViewController, UITableViewDataSource, UITable
         }
         
         else if isValidUrl(url: name) {
-            getData(urlName: name, onCompletion: { result in
-                self.data.append(result)
-                //print(self.data)
-                self.linkTableView.reloadData()
-            })
+            getData(urlName: name)
+//                        getData(urlName: name, onCompletion: { result in
+//                            let newUrl = UrlData(context: self.context)
+//                            newUrl.short_link = result["short_link"]
+//                            newUrl.original_link = result["original_link"]
+//                            self.urlData.append(newUrl)
+//                            self.saveUrl()
+//                        })
         }
     }
     
@@ -86,7 +100,9 @@ class URLShorterViewController: UIViewController, UITableViewDataSource, UITable
         else {
             return
         }
-        data.remove(at: indexPath.section)
+        context.delete(urlData[indexPath.section])
+        saveUrl()
+        urlData.remove(at: indexPath.section)
         linkTableView.beginUpdates()
         let indexSet = IndexSet(arrayLiteral: indexPath.section)
         linkTableView.deleteSections(indexSet, with: .left)
@@ -102,23 +118,34 @@ class URLShorterViewController: UIViewController, UITableViewDataSource, UITable
         let cell = linkTableView.cellForRow(at: indexPath) as! TableViewCell
         UIPasteboard.general.string = cell.shorterUrl?.text
     }
-    
-    func getData(urlName:String, onCompletion: @escaping(ApiResult) -> ())
+    // , onCompletion: @escaping(Dictionary<String, String>) -> ()
+    func getData(urlName:String)
     {
         let urlString = "https://api.shrtco.de/v2/shorten?url=" + urlName
         //print(urlString)
         if let url = URL(string : urlString){
             let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
-                guard let data = data else {
-                    print("Data was Nil")
-                    return
-                }
-                guard let check = try? JSONDecoder().decode(ApiResponse.self, from: data) else {
-                    print("Couldn't Decode JSON")
-                    return
-                }
-                DispatchQueue.main.async {
-                    onCompletion(check.result)
+                if error == nil {
+                    let httpResponse = response as! HTTPURLResponse
+                    if httpResponse.statusCode == 201 {
+                        let jsonData = try? JSONSerialization.jsonObject(with: data!, options: .mutableContainers)
+                        //print(jsonData!)
+                        let result = jsonData as! Dictionary<String, Any>
+                        //print(result)
+                        //print(result["result"]!)
+                        let task = result["result"] as! Dictionary<String, String>
+                        //print(task["short_link"]!)
+                        //print(task)
+                        
+//                        DispatchQueue.main.async {
+//                                          onCompletion(task)
+//                                      }
+                        let newUrl = UrlData(context: self.context)
+                        newUrl.short_link = task["short_link"]
+                        newUrl.original_link = task["original_link"]
+                        self.urlData.append(newUrl)
+                        self.saveUrl()
+                    }
                 }
             }
             task.resume()
@@ -130,7 +157,7 @@ class URLShorterViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return data.count
+        return urlData.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -148,25 +175,53 @@ class URLShorterViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let list = data[indexPath.section]
+        let list = urlData[indexPath.section]
         let cell = linkTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
         cell.shorterUrl?.text = list.short_link
         cell.layer.cornerRadius = 8
         if let originalLink = list.original_link,
-            let originalURL = URL.init(string: originalLink) {
-                //print(originalURL.host)
-                cell.originalUrl?.text = originalURL.host
-            }
+           let originalURL = URL.init(string: originalLink) {
+            //print(originalURL.host)
+            cell.originalUrl?.text = originalURL.host
+        }
         return cell
+    }
+    
+    func saveUrl() {
+        do{
+            try context.save()
+        }
+        catch {
+            print("Error Saving Context \(error)")
+        }
+        DispatchQueue.main.async {
+            self.linkTableView.reloadData()
+        }
+    }
+    
+    func loadUrls(with request: NSFetchRequest<UrlData> = UrlData.fetchRequest()) {
+        do {
+            urlData = try context.fetch(request)
+        }
+        catch {
+            print("Error Fetching Data From Context \(error)")
+        }
+        linkTableView.reloadData()
     }
 }
 
-struct ApiResponse: Decodable {
-    let ok: Bool?
-    let result: ApiResult
-}
+//struct ApiResponse {
+//    let ok: Bool?
+//    let result: UrlData
+//}
 
-struct ApiResult: Decodable {
-    let original_link: String?
-    let short_link: String?
-}
+//struct ApiResult: Decodable {
+//    let original_link: String?
+//    let short_link: String?
+//}
+
+
+
+
+
+

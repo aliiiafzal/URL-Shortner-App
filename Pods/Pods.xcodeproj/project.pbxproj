@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF60AECF5B5AD2DC29C5A06398DB0E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BE08DEC7E394C2FE0FCDE518B8B7EB8 /* Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0535E2C4B2D8964846284DEC2A78768B /* Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECE2865AB2D315E17D4DBDAA981FFD0 /* Pods-URL Shortner AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E626164619BE7239B6EDCE6CD4E43E30 /* Pods-URL Shortner AppTests-dummy.m */; };
+		7FEF42F6FCC46719007E9891E89CBA74 /* Pods-URL Shortner AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 904A373A41198CC2916CD7E6AB1D2EC5 /* Pods-URL Shortner AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99458D3B79E2DCBB5B4386AA2D5DA50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A4904041DA7A778A59DD0219597A8CF /* Pods-URL Shortner App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F41672A5A99FD3D0A17E15AF31AFC2F /* Pods-URL Shortner App-dummy.m */; };
+		9C6F945FE1DC8564D8DABBADE93B7B4F /* Pods-URL Shortner App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8E592903C846EA36B59EAC56D429A1 /* Pods-URL Shortner App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3986CE1C0D7A535FA45E7C930EF243B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA5E7372A96259EE903FAA64912002C9 /* Pods-URL Shortner App-URL Shortner AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E54A8E9795A77323829938E0AF8A9A6F /* Pods-URL Shortner App-URL Shortner AppUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A17C51FCD603A1420FCC24CC692DB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18ACBC24B86CA8ED2B903A5F5F5A15F;
+			remoteInfo = "Pods-URL Shortner App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0503821ACE1B643C811852C5FBE359A0 /* Pods-URL Shortner App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URL Shortner App-Info.plist"; sourceTree = "<group>"; };
+		0535E2C4B2D8964846284DEC2A78768B /* Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		08DAC9EF216B5F8759184374BF06F470 /* Pods-URL Shortner AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URL Shortner AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AD4438975F183F35954570713DBE7A7 /* Pods-URL Shortner App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-URL Shortner App.modulemap"; sourceTree = "<group>"; };
+		0E0B13BF52690CBE18C031FF73743665 /* Pods-URL Shortner App-URL Shortner AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URL Shortner App-URL Shortner AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		19A77048F6A2CBD5CF5E94DFA9893638 /* Pods-URL Shortner App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URL Shortner App-acknowledgements.plist"; sourceTree = "<group>"; };
+		3150BC18A14E9FF2F7B32D68E74D3616 /* Pods-URL Shortner App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URL Shortner App.release.xcconfig"; sourceTree = "<group>"; };
+		3EE27508C3AFD5687B16BCCCC1A06E1C /* Pods-URL Shortner App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URL Shortner App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F41672A5A99FD3D0A17E15AF31AFC2F /* Pods-URL Shortner App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URL Shortner App-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		904A373A41198CC2916CD7E6AB1D2EC5 /* Pods-URL Shortner AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URL Shortner AppTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A59EC60871E0EC46EAA910D95AB6C30E /* Pods-URL Shortner App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-URL Shortner App"; path = Pods_URL_Shortner_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8E592903C846EA36B59EAC56D429A1 /* Pods-URL Shortner App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-URL Shortner App-umbrella.h"; sourceTree = "<group>"; };
+		C1D3026FB657116C0C50D3E6B08846CF /* Pods-URL Shortner AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URL Shortner AppTests-Info.plist"; sourceTree = "<group>"; };
+		C6101EC90A3A4F4465DAF93A16F2BC0E /* Pods-URL Shortner AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URL Shortner AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D63F72A16BD10202BCF26974DA7346CD /* Pods-URL Shortner AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URL Shortner AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D86CEE44945F8F0181A2B584F9BE4635 /* Pods-URL Shortner App-URL Shortner AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-URL Shortner App-URL Shortner AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBFE70F42556765D9F1E072EF18A8BCC /* Pods-URL Shortner AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-URL Shortner AppTests.modulemap"; sourceTree = "<group>"; };
+		DEC697E95C1D0D15B6F8EEFC325434AB /* Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E27BD2F6D07E162F511D72531F7D17D3 /* Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E54A8E9795A77323829938E0AF8A9A6F /* Pods-URL Shortner App-URL Shortner AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URL Shortner App-URL Shortner AppUITests-dummy.m"; sourceTree = "<group>"; };
+		E626164619BE7239B6EDCE6CD4E43E30 /* Pods-URL Shortner AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-URL Shortner AppTests-dummy.m"; sourceTree = "<group>"; };
+		E8AA8719B7D2D257AFE71A3006D5306D /* Pods-URL Shortner App-URL Shortner AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-URL Shortner App-URL Shortner AppUITests-Info.plist"; sourceTree = "<group>"; };
+		E8ED6D4DF7666858750007286835D144 /* Pods-URL Shortner App-URL Shortner AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-URL Shortner App-URL Shortner AppUITests.modulemap"; sourceTree = "<group>"; };
+		EB67E223B39822520BF3B7485E877152 /* Pods-URL Shortner AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-URL Shortner AppTests"; path = Pods_URL_Shortner_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84B5182EA0AA23F0438E4C2443091E2 /* Pods-URL Shortner App-URL Shortner AppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-URL Shortner App-URL Shortner AppUITests"; path = Pods_URL_Shortner_App_URL_Shortner_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF7777B1FD6592F2BC0BBA377396624 /* Pods-URL Shortner App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URL Shortner App.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCD0A27DF1899A0C59E30338981B4E2 /* Pods-URL Shortner AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-URL Shortner AppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49A56A4A028F45A83083149856AEE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3986CE1C0D7A535FA45E7C930EF243B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E3BC44FD9F893FED3EB8F52BA29EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF60AECF5B5AD2DC29C5A06398DB0E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB181A0DFF74E4834F98FF6571B03426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99458D3B79E2DCBB5B4386AA2D5DA50E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB21973F44A12D69431207058CA93B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A59EC60871E0EC46EAA910D95AB6C30E /* Pods-URL Shortner App */,
+				F84B5182EA0AA23F0438E4C2443091E2 /* Pods-URL Shortner App-URL Shortner AppUITests */,
+				EB67E223B39822520BF3B7485E877152 /* Pods-URL Shortner AppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B638E795229EE3E660225E79BA20284 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A624ACAEBD41A5D21C2F7509CA6E3E /* Pods-URL Shortner App */,
+				F6D7A58D2B5BF614EF5D0068CD04E4A5 /* Pods-URL Shortner App-URL Shortner AppUITests */,
+				C3874B62F4569B4BB62CE1850CE8B9CF /* Pods-URL Shortner AppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C3874B62F4569B4BB62CE1850CE8B9CF /* Pods-URL Shortner AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBFE70F42556765D9F1E072EF18A8BCC /* Pods-URL Shortner AppTests.modulemap */,
+				C6101EC90A3A4F4465DAF93A16F2BC0E /* Pods-URL Shortner AppTests-acknowledgements.markdown */,
+				D63F72A16BD10202BCF26974DA7346CD /* Pods-URL Shortner AppTests-acknowledgements.plist */,
+				E626164619BE7239B6EDCE6CD4E43E30 /* Pods-URL Shortner AppTests-dummy.m */,
+				C1D3026FB657116C0C50D3E6B08846CF /* Pods-URL Shortner AppTests-Info.plist */,
+				904A373A41198CC2916CD7E6AB1D2EC5 /* Pods-URL Shortner AppTests-umbrella.h */,
+				08DAC9EF216B5F8759184374BF06F470 /* Pods-URL Shortner AppTests.debug.xcconfig */,
+				FDCD0A27DF1899A0C59E30338981B4E2 /* Pods-URL Shortner AppTests.release.xcconfig */,
+			);
+			name = "Pods-URL Shortner AppTests";
+			path = "Target Support Files/Pods-URL Shortner AppTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1EB21973F44A12D69431207058CA93B9 /* Products */,
+				8B638E795229EE3E660225E79BA20284 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A624ACAEBD41A5D21C2F7509CA6E3E /* Pods-URL Shortner App */ = {
+			isa = PBXGroup;
+			children = (
+				0AD4438975F183F35954570713DBE7A7 /* Pods-URL Shortner App.modulemap */,
+				3EE27508C3AFD5687B16BCCCC1A06E1C /* Pods-URL Shortner App-acknowledgements.markdown */,
+				19A77048F6A2CBD5CF5E94DFA9893638 /* Pods-URL Shortner App-acknowledgements.plist */,
+				3F41672A5A99FD3D0A17E15AF31AFC2F /* Pods-URL Shortner App-dummy.m */,
+				0503821ACE1B643C811852C5FBE359A0 /* Pods-URL Shortner App-Info.plist */,
+				AB8E592903C846EA36B59EAC56D429A1 /* Pods-URL Shortner App-umbrella.h */,
+				FBF7777B1FD6592F2BC0BBA377396624 /* Pods-URL Shortner App.debug.xcconfig */,
+				3150BC18A14E9FF2F7B32D68E74D3616 /* Pods-URL Shortner App.release.xcconfig */,
+			);
+			name = "Pods-URL Shortner App";
+			path = "Target Support Files/Pods-URL Shortner App";
+			sourceTree = "<group>";
+		};
+		F6D7A58D2B5BF614EF5D0068CD04E4A5 /* Pods-URL Shortner App-URL Shortner AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8ED6D4DF7666858750007286835D144 /* Pods-URL Shortner App-URL Shortner AppUITests.modulemap */,
+				D86CEE44945F8F0181A2B584F9BE4635 /* Pods-URL Shortner App-URL Shortner AppUITests-acknowledgements.markdown */,
+				0E0B13BF52690CBE18C031FF73743665 /* Pods-URL Shortner App-URL Shortner AppUITests-acknowledgements.plist */,
+				E54A8E9795A77323829938E0AF8A9A6F /* Pods-URL Shortner App-URL Shortner AppUITests-dummy.m */,
+				E8AA8719B7D2D257AFE71A3006D5306D /* Pods-URL Shortner App-URL Shortner AppUITests-Info.plist */,
+				0535E2C4B2D8964846284DEC2A78768B /* Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h */,
+				E27BD2F6D07E162F511D72531F7D17D3 /* Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig */,
+				DEC697E95C1D0D15B6F8EEFC325434AB /* Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig */,
+			);
+			name = "Pods-URL Shortner App-URL Shortner AppUITests";
+			path = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		165173FB88AEBF336DD4129B15586E2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF42F6FCC46719007E9891E89CBA74 /* Pods-URL Shortner AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1968937DBD52978A1E74D9753A5C9E6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE08DEC7E394C2FE0FCDE518B8B7EB8 /* Pods-URL Shortner App-URL Shortner AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE8C488D0BCBB19EFDE7FDCEC49C85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6F945FE1DC8564D8DABBADE93B7B4F /* Pods-URL Shortner App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		106625F74229D260E0C14A71B2BC1AD7 /* Pods-URL Shortner App-URL Shortner AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C13A1A8A61FE449F5E9EF0A4769DA299 /* Build configuration list for PBXNativeTarget "Pods-URL Shortner App-URL Shortner AppUITests" */;
+			buildPhases = (
+				1968937DBD52978A1E74D9753A5C9E6F /* Headers */,
+				0CAB07C3AB3B1B99AF229CACD5784593 /* Sources */,
+				B49A56A4A028F45A83083149856AEE08 /* Frameworks */,
+				4D562E3A02089C674D979C83E644BEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-URL Shortner App-URL Shortner AppUITests";
+			productName = Pods_URL_Shortner_App_URL_Shortner_AppUITests;
+			productReference = F84B5182EA0AA23F0438E4C2443091E2 /* Pods-URL Shortner App-URL Shortner AppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		222C4A6539A5E0A2FD57E95F69B32372 /* Pods-URL Shortner AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341E8C785B5592E61D99568ABDAAE790 /* Build configuration list for PBXNativeTarget "Pods-URL Shortner AppTests" */;
+			buildPhases = (
+				165173FB88AEBF336DD4129B15586E2C /* Headers */,
+				B688BAA06EF41AF55569A64C2F09859D /* Sources */,
+				D0E3BC44FD9F893FED3EB8F52BA29EEB /* Frameworks */,
+				BDBB107EE8330C6B516E37BF3823DBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45B58A078C587338D8FAD582C013E15 /* PBXTargetDependency */,
+			);
+			name = "Pods-URL Shortner AppTests";
+			productName = Pods_URL_Shortner_AppTests;
+			productReference = EB67E223B39822520BF3B7485E877152 /* Pods-URL Shortner AppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F18ACBC24B86CA8ED2B903A5F5F5A15F /* Pods-URL Shortner App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8463180365A23831D9770A58D7A0FEFC /* Build configuration list for PBXNativeTarget "Pods-URL Shortner App" */;
+			buildPhases = (
+				A7CE8C488D0BCBB19EFDE7FDCEC49C85 /* Headers */,
+				0929FD3F26BAD673B917911978E26A78 /* Sources */,
+				FB181A0DFF74E4834F98FF6571B03426 /* Frameworks */,
+				756ADD364B581D0E9C90AD7062573AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-URL Shortner App";
+			productName = Pods_URL_Shortner_App;
+			productReference = A59EC60871E0EC46EAA910D95AB6C30E /* Pods-URL Shortner App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1EB21973F44A12D69431207058CA93B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18ACBC24B86CA8ED2B903A5F5F5A15F /* Pods-URL Shortner App */,
+				106625F74229D260E0C14A71B2BC1AD7 /* Pods-URL Shortner App-URL Shortner AppUITests */,
+				222C4A6539A5E0A2FD57E95F69B32372 /* Pods-URL Shortner AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D562E3A02089C674D979C83E644BEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756ADD364B581D0E9C90AD7062573AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBB107EE8330C6B516E37BF3823DBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0929FD3F26BAD673B917911978E26A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4904041DA7A778A59DD0219597A8CF /* Pods-URL Shortner App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAB07C3AB3B1B99AF229CACD5784593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E7372A96259EE903FAA64912002C9 /* Pods-URL Shortner App-URL Shortner AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B688BAA06EF41AF55569A64C2F09859D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECE2865AB2D315E17D4DBDAA981FFD0 /* Pods-URL Shortner AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45B58A078C587338D8FAD582C013E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-URL Shortner App";
+			target = F18ACBC24B86CA8ED2B903A5F5F5A15F /* Pods-URL Shortner App */;
+			targetProxy = 2A17C51FCD603A1420FCC24CC692DB80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		587BEE00A3B91D40D428FE3D3F500C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27BD2F6D07E162F511D72531F7D17D3 /* Pods-URL Shortner App-URL Shortner AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests/Pods-URL Shortner App-URL Shortner AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests/Pods-URL Shortner App-URL Shortner AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85B7CE6BF32130A7540A86DFCCACF2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC697E95C1D0D15B6F8EEFC325434AB /* Pods-URL Shortner App-URL Shortner AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests/Pods-URL Shortner App-URL Shortner AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URL Shortner App-URL Shortner AppUITests/Pods-URL Shortner App-URL Shortner AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFDB4B640396B52E8F020ECB994A8676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF7777B1FD6592F2BC0BBA377396624 /* Pods-URL Shortner App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URL Shortner App/Pods-URL Shortner App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URL Shortner App/Pods-URL Shortner App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9FDE6536BEA38A56A41367CFF7366B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3150BC18A14E9FF2F7B32D68E74D3616 /* Pods-URL Shortner App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URL Shortner App/Pods-URL Shortner App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URL Shortner App/Pods-URL Shortner App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE55A4D059EE9A172602A6A14E39A1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCD0A27DF1899A0C59E30338981B4E2 /* Pods-URL Shortner AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URL Shortner AppTests/Pods-URL Shortner AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URL Shortner AppTests/Pods-URL Shortner AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D52707671F05EEA4ABC39F344D5EB597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DAC9EF216B5F8759184374BF06F470 /* Pods-URL Shortner AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-URL Shortner AppTests/Pods-URL Shortner AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-URL Shortner AppTests/Pods-URL Shortner AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341E8C785B5592E61D99568ABDAAE790 /* Build configuration list for PBXNativeTarget "Pods-URL Shortner AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52707671F05EEA4ABC39F344D5EB597 /* Debug */,
+				CE55A4D059EE9A172602A6A14E39A1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8463180365A23831D9770A58D7A0FEFC /* Build configuration list for PBXNativeTarget "Pods-URL Shortner App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDB4B640396B52E8F020ECB994A8676 /* Debug */,
+				C9FDE6536BEA38A56A41367CFF7366B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C13A1A8A61FE449F5E9EF0A4769DA299 /* Build configuration list for PBXNativeTarget "Pods-URL Shortner App-URL Shortner AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587BEE00A3B91D40D428FE3D3F500C5A /* Debug */,
+				85B7CE6BF32130A7540A86DFCCACF2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
