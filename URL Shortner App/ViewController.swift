@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         urlInput.layer.cornerRadius = 5
         shortenButton.layer.cornerRadius = 5
+        navigationItem.hidesBackButton = true
     }
     
     @IBAction func shortenPressed(_ sender: UIButton) {
@@ -46,7 +47,6 @@ class ViewController: UIViewController {
             urlInput.layer.borderWidth = 0.0
         }
     }
-    
     
     func isValidUrl(url: String) -> Bool {
         let urlRegEx = "((?:http|https)://)?(?:www\\.)?[\\w\\d\\-_]+\\.\\w{2,3}(\\.\\w{2})?(/(?<=/)(?:[\\w\\d\\-./_]+)?)?"

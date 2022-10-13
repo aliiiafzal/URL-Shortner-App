@@ -4,7 +4,7 @@ target 'URL Shortner App' do
   use_frameworks!
 
   # Pods for URL Shortner App
-  
+  pod 'FirebaseAuth'
 
   target 'URL Shortner AppTests' do
     inherit! :search_paths
